@@ -16,13 +16,6 @@
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/github/daddyawesome/data_science/blob/master/_notebooks/2020_04_01_DataVisualization.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="About">About<a class="anchor-link" href="#About"> </a></h1><p>This notebook is a demonstration of some Data Visulaization capabilities of Google Colab.</p>
 <h1 id="Introduction-to-Matplotlib-and-Line-Plots">Introduction to Matplotlib and Line Plots<a class="anchor-link" href="#Introduction-to-Matplotlib-and-Line-Plots"> </a></h1>
 </div>
@@ -38,6 +31,58 @@
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="The-Dataset:-Immigration-to-Canada-from-1980-to-2013">The Dataset: Immigration to Canada from 1980 to 2013<a class="anchor-link" href="#The-Dataset:-Immigration-to-Canada-from-1980-to-2013"> </a></h3><p>Dataset Source: <a href="http://www.un.org/en/development/desa/population/migration/data/empirical2/migrationflows.shtml">International migration flows to and from selected countries - The 2015 revision</a>.</p>
+<p>The dataset contains annual data on the flows of international immigrants as recorded by the countries of destination. The data presents both inflows and outflows according to the place of birth, citizenship or place of previous / next residence both for foreigners and nationals. The current version presents data pertaining to 45 countries.</p>
+<p>In this lab, we will focus on the Canadian immigration data.</p>
+<p>`<img src="https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DV0101EN/labs/Images/Mod1Fig1-Dataset.png" alt="" /></p>
+<p>For sake of simplicity, Canada's immigration data has been extracted and uploaded to one of IBM servers. You can fetch the data from <a href="https://ibm.box.com/shared/static/lw190pt9zpy5bd1ptyg2aw15awomz9pu.xlsx">here</a>.</p>
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="pandas-Basics"><em>pandas</em> Basics<a class="anchor-link" href="#pandas-Basics"> </a></h3><p>The first thing we'll do is import two key data analysis modules: <em>pandas</em> and <strong>Numpy</strong>.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  <span class="c1"># useful for many scientific computing in Python</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1"># primary data structure library</span>
+<span class="o">!</span>pip install xlrd
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: xlrd in /usr/local/lib/python3.6/dist-packages (1.1.0)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Markdown-Shortcuts">Markdown Shortcuts<a class="anchor-link" href="#Markdown-Shortcuts"> </a></h2>
