@@ -4,7 +4,18 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+## 你好！我的名字叫马克
+Hello, My name is Mark also known as Daddy Awesome if you want to know more about me. Check out my [CV page](https://daddyawesome.github.io/). 
+
+### My Certificates
+1. Python
+2. Data Science
+3. Machine Learning
+
+
+
+
+Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
 
 This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
 
