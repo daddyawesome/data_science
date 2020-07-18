@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>How to Master Python | My Data Science Projects</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="How to Master Python" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A road map to python." />
+<meta property="og:description" content="A road map to python." />
+<link rel="canonical" href="https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html" />
+<meta property="og:url" content="https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html" />
+<meta property="og:site_name" content="My Data Science Projects" />
+<meta property="og:image" content="https://daddyawesome.github.io/data_science/images/chart-preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-17T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"A road map to python.","dateModified":"2020-07-17T00:00:00-05:00","datePublished":"2020-07-17T00:00:00-05:00","headline":"How to Master Python","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html"},"image":"https://daddyawesome.github.io/data_science/images/chart-preview.png","url":"https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/data_science/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://daddyawesome.github.io/data_science/feed.xml" title="My Data Science Projects" /><link rel="shortcut icon" type="image/x-icon" href="/data_science/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>How to Master Python | My Data Science Projects</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="How to Master Python" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A road map to python." />
+<meta property="og:description" content="A road map to python." />
+<link rel="canonical" href="https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html" />
+<meta property="og:url" content="https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html" />
+<meta property="og:site_name" content="My Data Science Projects" />
+<meta property="og:image" content="https://daddyawesome.github.io/data_science/images/chart-preview.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-17T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"A road map to python.","dateModified":"2020-07-17T00:00:00-05:00","datePublished":"2020-07-17T00:00:00-05:00","headline":"How to Master Python","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html"},"image":"https://daddyawesome.github.io/data_science/images/chart-preview.png","url":"https://daddyawesome.github.io/data_science/roadmap/python/2020/07/17/How_to_Python.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://daddyawesome.github.io/data_science/feed.xml" title="My Data Science Projects" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/data_science/">My Data Science Projects</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/data_science/about/">About Me</a><a class="page-link" href="/data_science/search/">Search</a><a class="page-link" href="/data_science/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to Master Python</h1><p class="page-description">A road map to python.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-17T00:00:00-05:00" itemprop="datePublished">
+        Jul 17, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/data_science/categories/#roadmap">roadmap</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/data_science/categories/#Python">Python</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/daddyawesome/data_science/tree/master/_notebooks/How_to_Python.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/data_science/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/daddyawesome/data_science/master?filepath=_notebooks%2FHow_to_Python.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/data_science/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/daddyawesome/data_science/blob/master/_notebooks/How_to_Python.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/data_science/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#How-to-Master-Python">How to Master Python </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#How-to-become-a-Ninja-in-Python?">How to become a Ninja in Python? </a></li>
+<li class="toc-entry toc-h2"><a href="#Foundations">Foundations </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Learn-General-Purpose-Problem-Solving">Learn General Purpose Problem Solving </a></li>
+<li class="toc-entry toc-h1"><a href="#Finding-Answers">Finding Answers </a></li>
+<li class="toc-entry toc-h1"><a href="#Wow-Python-!">Wow Python ! </a></li>
+<li class="toc-entry toc-h1"><a href="#How-Long-Does-It-Take-?">How Long Does It Take ? </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#9-lifetimes.">9 lifetimes. </a></li>
+<li class="toc-entry toc-h2"><a href="#Be-a-learner-forever,-but-not-JUST-a-learner-!">Be a learner forever, but not JUST a learner ! </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Understand-the-Learn/Build-cycle">Understand the Learn/Build cycle </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#There-will-be-a-time-when-you-would-be-following-Kenneth-Reitz-on-GitHub,-listening-to-Talk-Python-on-your-commutes-and-complying-with-pep8-in-vernacular-writing.-And,-you’d-do-it-not-because-you-need-to-learn,-but-because-you-want-to-know.">There will be a time when you would be following Kenneth Reitz on GitHub, listening to Talk Python on your commutes and complying with pep8 in vernacular writing. And, you’d do it not because you need to learn, but because you want to know. </a></li>
+</ul>
+</li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/How_to_Python.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="How-to-Master-Python">
+<a class="anchor" href="#How-to-Master-Python" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Master Python<a class="anchor-link" href="#How-to-Master-Python"> </a>
+</h1>
+<p>That is the very big question.</p>
+<p>Let us start with hello world</p>
+<p>every programming language starts with hello world.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello World"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello World
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="How-to-become-a-Ninja-in-Python?">
+<a class="anchor" href="#How-to-become-a-Ninja-in-Python?" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to become a <strong>Ninja</strong> in Python?<a class="anchor-link" href="#How-to-become-a-Ninja-in-Python?"> </a>
+</h2>
+<p><em>It’s simple. Pick a tutorial and complete it. Then, pick another. Rest and Repeat.</em></p>
+<p><strong>A single book or video course will not cut it</strong>. You need continual exposure to code, along with progressive overload. Patience, persistence, commitment (and a bunch of other cool qualities) are required !<br>
+<br><br>
+<br></p>
+<p>I’ve come up with a basic flow of what I’d advise a beginner to do. If you’re human (last time I checked, AI wasn’t interested in learning python, yet) your version of the roadmap will vary. Just use this for reference. <strong>It’s important to know when to move to the next level. Most people do it too late</strong>.
+<img src="https://hackernoon.com/hn-images/1*YHhp2tMqiu4lCSh8aJQFHg.jpeg" alt="roadmap"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Foundations">
+<a class="anchor" href="#Foundations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Foundations<a class="anchor-link" href="#Foundations"> </a>
+</h2>
+<ol>
+<li><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a></li>
+<li><a href="http://greenteapress.com/thinkpython2/html/index.html">Think Python</a></li>
+<li><a href="https://docs.python.org/3/tutorial/">Python Tutorials</a></li>
+<li><a href="https://github.com/gregmalcolm/python_koans">Python Koans</a></li>
+<li><a href="https://python-intro.readthedocs.io/en/latest/numbers.html">Read the docs</a></li>
+<li><a href="https://docs.python-guide.org/intro/learning/">The hitchhiker's guide to python</a></li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You might prefer to pick a course on <strong>edX</strong> instead of <strong>reading a book</strong>. The overall process is more important than the individual tutorials/courses you pick.</p>
+<ul>
+<li>Build a strong foundation by reading books.</li>
+<li>Follow the tutorials that teach you to accomplish a single task with Python, like sending email or writing files. This will introduce you to the useful packages and libraries available to a Python developer.</li>
+<li>Inculcate a habit of reading documentation. Build small apps by using the libraries available.</li>
+<li>Gain a deeper understanding of the language and it’s tools. Learn what the experts in the field are working on.</li>
+<li>Go straight to the source.</li>
+</ul>
+<p>Here’s a list of useful Python resources if you’ve exhausted the ones in the diagram. Best Python Resources at <a href="https://www.fullstackpython.com/best-python-resources.html">Full Stack Python</a>.</p>
+<p>While following any tutorial, make sure you code along the way. Merely, reading the code examples isn’t enough.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Learn-General-Purpose-Problem-Solving">
+<a class="anchor" href="#Learn-General-Purpose-Problem-Solving" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learn General Purpose Problem Solving<a class="anchor-link" href="#Learn-General-Purpose-Problem-Solving"> </a>
+</h1>
+<p><img src="https://hackernoon.com/hn-images/1*s_SfO5VKDIR92KxL_CZMmw.jpeg" alt="alt text"></p>
+<p><em>There’s a subtle difference between learning a language (or framework/library) and learning to program. It’s like comparing water colors to painting.</em></p>
+<p>Before you pay for a <strong>‘Full Stack Web Developer’</strong> course, just know that <strong>it will not make you a good programmer</strong>.</p>
+<p>It will only <strong>teach you a particular procedure</strong> to tackle a simple problem (yes, the web apps built in most of these courses are indeed simple problems).</p>
+<p>Knowing the procedure is good, but being able to devise your own procedures is brilliant. Pay attention to programming constructs, design patterns and algorithms. These are not specific to Python and remain the same for almost all languages.</p>
+<p><strong><em>Do it long enough and the pattern will emerge.</em></strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Finding-Answers">
+<a class="anchor" href="#Finding-Answers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Finding Answers<a class="anchor-link" href="#Finding-Answers"> </a>
+</h1>
+<p>If you get stuck (you will, several times), try to solve the problem before you start running in the other direction.</p>
+<p>There is a very high probability that someone, somewhere has faced the same problem before and the internet has documented proof of it. Search for the solution on the web. Also, the Python community (subset of the world’s population that use Python and actively participate in connecting with other Python programmers) is very welcoming.</p>
+<p>You can always ask people for help. Join the <a href="https://gitter.im/FreeCodeCamp/python">Python channel on Gitter</a>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Wow-Python-!">
+<a class="anchor" href="#Wow-Python-!" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wow Python !<a class="anchor-link" href="#Wow-Python-!"> </a>
+</h1>
+<p>There’s a lot to learn in Python. It’s used in a whole bunch of fields. Do not skip the basics and jump to specialize in a particular field.</p>
+<p><em>Learning PyTorch should come after packaging, Django after Virtual Environments.</em></p>
+<p>Having in-depth knowledge of Python pays off in the long run. It will result in less time spent debugging your programs while you’re working with your super special library.</p>
+<p><img src="https://hackernoon.com/hn-images/1*I_gcg6_kdPEYxXDZjeEd4w.jpeg" alt="cycle"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="How-Long-Does-It-Take-?">
+<a class="anchor" href="#How-Long-Does-It-Take-?" aria-hidden="true"><span class="octicon octicon-link"></span></a>How Long Does It Take ?<a class="anchor-link" href="#How-Long-Does-It-Take-?"> </a>
+</h1>
+<h2 id="9-lifetimes.">
+<a class="anchor" href="#9-lifetimes." aria-hidden="true"><span class="octicon octicon-link"></span></a><strong><em>9 lifetimes.</em></strong><a class="anchor-link" href="#9-lifetimes."> </a>
+</h2>
+<p><br><br></p>
+<p>It takes time to learn something well. Way longer than most people tell you. You cannot become an expert programmer in a couple of months.</p>
+<p><strong>Good things take time and effort</strong>.</p>
+<p>I would recommend that you focus primarily on Python for at least a year. There will be distractions and diversions, avoid those. But don’t be scared of branching out to learn new things. Python is not the only thing you need to become a well rounded developer. Learning Git, Markdown, HTML pays off immensely. You might also need to pick up JS or statistics along the way.</p>
+<h2 id="Be-a-learner-forever,-but-not-JUST-a-learner-!">
+<a class="anchor" href="#Be-a-learner-forever,-but-not-JUST-a-learner-!" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Be a learner forever, but not JUST a learner !</em><a class="anchor-link" href="#Be-a-learner-forever,-but-not-JUST-a-learner-!"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://hackernoon.com/hn-images/1*64z9RGbNfctoOJAgnrdWfg.jpeg" alt="alt text"></p>
+<h1 id="Understand-the-Learn/Build-cycle">
+<a class="anchor" href="#Understand-the-Learn/Build-cycle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Understand the Learn/Build cycle<a class="anchor-link" href="#Understand-the-Learn/Build-cycle"> </a>
+</h1>
+<p>There are two phases in any creative/scientific endeavor that keep repeating.</p>
+<p>The <strong>Learn</strong> phase, where you should focus on amassing knowledge. Read books, complete every tutorial and explore what’s already been done.</p>
+<p>The <strong>Build</strong> phase, where you create something by applying the knowledge gained in the previous phase. Stop doubting your skills, tune out the noise that says you can’t and write your own app. Only when you’re done, go back and <strong>learn </strong>again.</p>
+<p>Balance the two phases. Have a month or two month long <strong>Learn</strong> phase followed by a month long <strong>Build</strong> phase. Most people are too scared to start the <strong>Build</strong> phase.</p>
+<p><strong><em>Become a student of the game.</em></strong></p>
+<p>Explore everything about your language, learn about the pioneers in your field, ask questions, learn why something is designed the the way it is.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="There-will-be-a-time-when-you-would-be-following-Kenneth-Reitz-on-GitHub,-listening-to-Talk-Python-on-your-commutes-and-complying-with-pep8-in-vernacular-writing.-And,-you’d-do-it-not-because-you-need-to-learn,-but-because-you-want-to-know.">
+<a class="anchor" href="#There-will-be-a-time-when-you-would-be-following-Kenneth-Reitz-on-GitHub,-listening-to-Talk-Python-on-your-commutes-and-complying-with-pep8-in-vernacular-writing.-And,-you%E2%80%99d-do-it-not-because-you-need-to-learn,-but-because-you-want-to-know." aria-hidden="true"><span class="octicon octicon-link"></span></a><em>There will be a time when you would be following <a href="https://github.com/kennethreitz">Kenneth Reitz</a> on GitHub, listening to <a href="https://talkpython.fm/">Talk Python</a> on your commutes and complying with <a href="https://www.python.org/dev/peps/pep-0008/">pep8</a> in vernacular writing. And, you’d do it not because you need to learn, but because you want to know.</em><a class="anchor-link" href="#There-will-be-a-time-when-you-would-be-following-Kenneth-Reitz-on-GitHub,-listening-to-Talk-Python-on-your-commutes-and-complying-with-pep8-in-vernacular-writing.-And,-you%E2%80%99d-do-it-not-because-you-need-to-learn,-but-because-you-want-to-know."> </a>
+</h2>
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="daddyawesome/data_science"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/data_science/roadmap/python/2020/07/17/How_to_Python.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/data_science/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/data_science/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/data_science/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/daddyawesome" title="daddyawesome"><svg class="svg-icon grey"><use xlink:href="/data_science/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/urdaddyawesome" title="urdaddyawesome"><svg class="svg-icon grey"><use xlink:href="/data_science/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
