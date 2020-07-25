@@ -77,11 +77,7 @@ Credential ID: B8VA2NRNKJ43
 
 
 
-
-Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
-
+<br><br><br><br>
 This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
 
 [^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
