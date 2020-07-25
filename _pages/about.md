@@ -40,7 +40,17 @@ Credential ID: T6BZ67J3RGR5 <br>
 Certification Issued: Jan 2019 with No Expiration Date <br>
 Credential ID: 3XNFRAJP28GX
 
-### 2. Data Science
+
+### 2. Database
+a. [Become a SQL Developer](https://www.linkedin.com/learning/paths/become-a-sql-developer)
+> Issuing authority: LinkedIn Learning <br>
+Certification Issued: Jul 25, 2020 with No Expiration Date<br>
+Credential ID:  [AcbDdmE03tuJNBlkzRBadIWMoygI](https://daddyawesome.github.io/writings/Certificates/CertificateOfCompletion_Become%20a%20SQL%20Developer.pdf)
+- Programming Foundations: Databases (Started: July 21, 2020 - [Certificate of Completion](https://daddyawesome.github.io/writings/CertificateOfCompletion_Programming%20Foundations_%20Databases.pdf))
+- SQL Essential Training (Started: July 22, 2020 - [Certificate of Completion](https://daddyawesome.github.io/writings/CertificateOfCompletion_SQL%20Essential%20Training.pdf))
+- SQL: Data Reporting and Analysis (Started: July 24, 2020 - [Certificate of Completion](https://daddyawesome.github.io/writings/Certificates/CertificateOfCompletion_SQL_%20Data%20Reporting%20and%20Analysis.pdf))
+
+### 3. Data Science
 - [IBM Data Science](https://coursera.org/share/89fea425e57ed0b0708d574c86bfd2da)
 > Issuing authority: Coursera <br>
 Certification Issued: Apr 2020 with No Expiration Date<br>
@@ -56,11 +66,16 @@ Credential ID: AfK9jcMeLnHiAo7nA-Vm9VdPKT7j
 Certification Issued: Apr 2020 with No Expiration Date<br>
 Credential ID:  AXuuet9HvFqENFcJxni-Ly7UVtHv
 
-### 3. Machine Learning
+### 4. Machine Learning
 - [Machine Learning with Python](https://www.coursera.org/account/accomplishments/certificate/B8VA2NRNKJ43)
 > Issuing authority: Coursera <br>
 Certification Issued: Apr 2020 with No Expiration Date<br>
 Credential ID: B8VA2NRNKJ43
+
+
+
+
+
 
 
 Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
