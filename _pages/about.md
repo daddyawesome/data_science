@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## 你好！我的名字叫马克
-Hello, My name is Mark also known as Daddy Awesome if you want to know more about me. Check out my [CV page](https://daddyawesome.github.io/) or my [academic site](https://mr-miranda.github.io/). 
+Hello, My name is Mark also known as Daddy Awesome if you want to know more about me. Check out my [CV page](https://daddyawesome.github.io/)
 
 
 ## My Certificates
